@@ -1,0 +1,278 @@
+/* Home  */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Page Styles */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+    background: #fff;
+}
+
+.intro-text {
+    flex: 1;
+    max-width: 60%;
+}
+
+.intro-text h2 {
+    margin-top: 0;
+    color: black;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.buttons {
+    margin-top: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #555;
+}
+
+.intro-image {
+    flex: 1;
+    max-width: 35%;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+#banner{
+height: 30vh;
+max-width: 100%;
+background-image: url("banner.jpg");
+}
+
+a:hover {
+    border-bottom-color: transparent;
+    color: #ca4a79 !important;
+}
+
+h3 {
+font-family: cursive;
+
+}
+
+a.home-button { 
+    text-align: center;
+    margin: 400px;
+    padding: 1px 6px;
+    border: 20px outset buttonborder;
+    border-radius: 15px;
+    background-color: white;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* Contact*/
+
+#banner-contact{
+    height: 30vh;
+    max-width: 100%;
+    background-image: url("Images/banner-contact.jpg");
+    }
+.container {
+    text-align: left;
+    font-size: 20px; color: white; text-align: center; border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px; 
+    background-color: rgb(77, 121, 179);
+    padding:30px;
+    width: 1000px;}
+    
+    
+    .box1 input{margin: 10px;
+    
+    }
+
+
+.row > .col-6 {
+    width: 50%;
+}
+
+.row > .col-12 {
+    width: 100%;
+}
+
+.row > .col-12-xsmall {
+    width: 100%;
+}
+
+/* Contact */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Contact Options Styles */
+.contact-options {
+    padding: 2em 0;
+    background: rgb(191, 182, 182);
+}
+
+.contact-options h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.contact-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-options ul li {
+    margin-bottom: 1em;
+}
+
+.contact-options a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-options a i {
+    margin-right: 10px;
+}
+
+.contact-options a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.contact-options a:hover i {
+    color: #fff;
+}
+
+/* Icon Styles */
+.fab, .fas {
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.fab.fa-linkedin {
+    color: #0077b5;
+}
+
+.fas.fa-envelope {
+    color: #d14836;
+}

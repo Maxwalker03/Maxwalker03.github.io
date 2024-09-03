@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7faff; /* Very light blue background */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #003366; /* Dark blue background */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b0c4de; /* Light steel blue on hover */
+}
+
+/* Intro Section Styles */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+    background: #cce0ff; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    flex: 1;
+    padding-right: 2em;
+}
+
+.intro-text h2 {
+    color: #003366; /* Dark blue text */
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.intro-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Images Section Styles */
+.about-images {
+    margin: 2em 0;
+}
+
+.image-grid {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    position: relative;
+    flex: 1 1 calc(50% - 1em);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image-item:hover img {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .text {
+    font-size: 1.2em;
+}
+
+/* Personal Story Section Styles */
+.personal-story {
+    padding: 2em 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em; /* Gap below section */
+}
+
+.personal-story h2 {
+    border-bottom: 2px solid #003366; /* Dark blue border */
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    color: #003366; /* Dark blue text */
+}
+
+.personal-story p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background: #003366; /* Dark blue background */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
